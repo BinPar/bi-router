@@ -31,7 +31,7 @@
     "testOnly": "jest --coverage",
     "testCI": "npm run test && cat coverage/lcov.info | coveralls",
     "dev": "concurrently -k 'npm run build -- -w' 'npm run testOnly -- --watch'",
-    "publish": "npm run build && npm run test; npm version patch; npm publish --access public"
+    "publish": "npm run eslint && npm run build && npm run testCI; npm version patch; npm publish --access public"
   },
   "author": "Ignacio Ferro Picón",
   "license": "ISC",
