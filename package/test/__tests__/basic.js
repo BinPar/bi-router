@@ -1,4 +1,4 @@
-// import biRouter from '../../src/bi-router';
+import biRouter from '../../src/bi-router';
 
 const { describe, test, expect } = global;
 
