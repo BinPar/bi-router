@@ -21,7 +21,9 @@
   "engines": {
     "node": ">= 6.0"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/bi-router",
   "scripts": {
     "lint": "eslint 'src/*' 'test/*'",
@@ -66,6 +68,8 @@
     "eslint-plugin-react": "^7.3.0",
     "jest": "^22.2.2",
     "next": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "standard": "^11.0.0"
   }
 }
