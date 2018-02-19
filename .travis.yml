@@ -1,4 +1,4 @@
 language: node_js
 node_js:
   - "6"
-script: cd package; npm run testCI
+script: cd package; npm install; npm run testCI
